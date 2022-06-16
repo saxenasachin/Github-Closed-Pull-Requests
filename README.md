@@ -6,7 +6,7 @@
 # Github Sample Application
 [![platform](https://img.shields.io/badge/platform-Android-yellow.svg)](https://www.android.com)
 
-This is a sample application 📱 built to demonstrate use of *Clean Architecture* tools. Dedicated to all Android Developers with ❤️.
+This is a sample application 📱 built to demonstrate use of *Basic Android Components*. Dedicated to all Android Developers with ❤️.
 
 ## - About
 It simply loads pull request list from [GITHUB-API](https://developer.github.com/v3)

@@ -1,4 +1,4 @@
-package com.androchef.githubsampleapp.extensions
+package com.sachinsaxena.common.extensions
 
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity

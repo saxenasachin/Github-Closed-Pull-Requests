@@ -1,4 +1,4 @@
-package com.androchef.githubsampleapp.extensions
+package com.sachinsaxena.common.extensions
 
 /**
 Created by Sachin Saxena on 16/06/22.

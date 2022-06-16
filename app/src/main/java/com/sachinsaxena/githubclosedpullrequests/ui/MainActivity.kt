@@ -4,10 +4,10 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
-import com.androchef.githubsampleapp.extensions.addFragment
-import com.androchef.githubsampleapp.extensions.addFragmentWithBackStack
-import com.androchef.githubsampleapp.extensions.gone
-import com.androchef.githubsampleapp.extensions.visible
+import com.sachinsaxena.common.extensions.addFragment
+import com.sachinsaxena.common.extensions.addFragmentWithBackStack
+import com.sachinsaxena.common.extensions.gone
+import com.sachinsaxena.common.extensions.visible
 import com.sachinsaxena.githubclosedpullrequests.R
 import com.sachinsaxena.githubclosedpullrequests.base.BaseBindingActivity
 import com.sachinsaxena.githubclosedpullrequests.databinding.ActivityMainBinding

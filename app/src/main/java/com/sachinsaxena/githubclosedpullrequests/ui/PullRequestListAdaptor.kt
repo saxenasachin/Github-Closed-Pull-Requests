@@ -3,7 +3,7 @@ package com.sachinsaxena.githubclosedpullrequests.ui
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.androchef.githubsampleapp.extensions.isValid
+import com.sachinsaxena.common.extensions.isValid
 import com.sachinsaxena.githubclosedpullrequests.R
 import com.sachinsaxena.githubclosedpullrequests.databinding.LayoutSinglePullRequestItemBinding
 import com.sachinsaxena.githubclosedpullrequests.model.GithubPullRequest

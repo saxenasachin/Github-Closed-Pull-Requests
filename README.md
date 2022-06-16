@@ -1,8 +1,3 @@
-# GithubClosedPullRequests
-<p align="center">
- <center><img width="100%%"  src="files/github_sample_app_banner.png"></a></center>
-</p>
-
 # Github Sample Application
 [![platform](https://img.shields.io/badge/platform-Android-yellow.svg)](https://www.android.com)
 

@@ -4,7 +4,6 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
 import com.sachinsaxena.common.base.BaseViewModel
 import com.sachinsaxena.githubclosedpullrequests.model.GithubPullRequest
-import com.sachinsaxena.githubclosedpullrequests.model.GithubSingleRepo
 import com.sachinsaxena.githubclosedpullrequests.network.ApiInterface
 import com.sachinsaxena.githubclosedpullrequests.presentation.GitDataState
 import kotlinx.coroutines.Dispatchers
@@ -27,26 +26,6 @@ class MainViewModel : BaseViewModel<GitDataState>() {
             field = value
             publishState(value)
         }
-
-    fun getGithubRepositories(userName: String) {
-        state = GitDataState.Loading("Fetching $userName's repositories")
-        viewModelScope.launch(Dispatchers.IO) {
-            val apiInterface = ApiInterface.create().getUserRepositories(userName)
-            apiInterface.enqueue(object : Callback<List<GithubSingleRepo>> {
-                override fun onResponse(
-                    call: Call<List<GithubSingleRepo>>,
-                    response: Response<List<GithubSingleRepo>>
-                ) {
-                    val repositoryList = response.body().orEmpty()
-                    state = GitDataState.GetUsersRepositoriesSuccess(repositoryList)
-                }
-
-                override fun onFailure(call: Call<List<GithubSingleRepo>>, t: Throwable) {
-                    state = GitDataState.Error(t.localizedMessage.orEmpty())
-                }
-            })
-        }
-    }
 
     fun getGithubPullRequests(userName: String, repoName: String, prState: String) {
         state = GitDataState.Loading("Fetching $repoName's pull requests")

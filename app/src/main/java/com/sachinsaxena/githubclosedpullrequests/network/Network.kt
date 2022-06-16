@@ -13,8 +13,8 @@ Created by Sachin Saxena on 17/06/22.
 object Network {
     private const val TIMEOUT = 20L
 
-    val retrofit: Retrofit by lazy {
-        buildRetrofit()
+    val githubService: GithubService by lazy {
+        buildRetrofit().create(GithubService::class.java)
     }
 
     private fun getOkHttpClient(): OkHttpClient {

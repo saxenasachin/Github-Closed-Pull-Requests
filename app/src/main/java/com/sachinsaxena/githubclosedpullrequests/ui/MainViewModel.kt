@@ -4,7 +4,6 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
 import com.sachinsaxena.common.base.BaseViewModel
 import com.sachinsaxena.githubclosedpullrequests.model.GithubPullRequest
-import com.sachinsaxena.githubclosedpullrequests.network.GithubService
 import com.sachinsaxena.githubclosedpullrequests.network.Network
 import com.sachinsaxena.githubclosedpullrequests.presentation.GitDataState
 import kotlinx.coroutines.Dispatchers
@@ -32,8 +31,7 @@ class MainViewModel : BaseViewModel<GitDataState>() {
         state = GitDataState.Loading("Fetching $repoName's pull requests")
         viewModelScope.launch(Dispatchers.IO) {
             val apiInterface =
-                Network.retrofit.create(GithubService::class.java)
-                    .getPullRequestForGithubRepo(userName, repoName, prState)
+                Network.githubService.getPullRequestForGithubRepo(userName, repoName, prState)
             apiInterface.enqueue(object : Callback<List<GithubPullRequest>> {
                 override fun onResponse(
                     call: Call<List<GithubPullRequest>>,

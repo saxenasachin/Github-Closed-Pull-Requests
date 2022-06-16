@@ -6,9 +6,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.ViewModelProvider
 import com.androchef.githubsampleapp.extensions.toast
+import com.sachinsaxena.common.base.BaseBindingFragment
 import com.sachinsaxena.common.extensions.isValid
 import com.sachinsaxena.githubclosedpullrequests.R
-import com.sachinsaxena.githubclosedpullrequests.base.BaseBindingFragment
 import com.sachinsaxena.githubclosedpullrequests.databinding.FragmentLandingBinding
 
 /**

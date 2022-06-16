@@ -1,10 +1,8 @@
 package com.sachinsaxena.githubclosedpullrequests.ui
 
-import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.sachinsaxena.githubclosedpullrequests.base.BaseViewModel
+import com.sachinsaxena.common.base.BaseViewModel
 import com.sachinsaxena.githubclosedpullrequests.model.GithubPullRequest
 import com.sachinsaxena.githubclosedpullrequests.model.GithubSingleRepo
 import com.sachinsaxena.githubclosedpullrequests.network.ApiInterface

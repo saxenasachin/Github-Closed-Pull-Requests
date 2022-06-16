@@ -1,4 +1,4 @@
-package com.sachinsaxena.githubclosedpullrequests.base
+package com.sachinsaxena.common.base
 
 import android.content.Context
 import android.os.Bundle
@@ -7,12 +7,11 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.viewbinding.ViewBinding
-import com.sachinsaxena.githubclosedpullrequests.presentation.GitDataState
 
 /**
 Created by Sachin Saxena on 16/06/22.
  */
-abstract class BaseBindingFragment<VM : BaseViewModel<GitDataState>, VB : ViewBinding> :
+abstract class BaseBindingFragment<VM : BaseViewModel<*>, VB : ViewBinding> :
     Fragment() {
 
     lateinit var viewModel: VM
@@ -21,7 +20,7 @@ abstract class BaseBindingFragment<VM : BaseViewModel<GitDataState>, VB : ViewBi
 
     val mBinding get() = _binding
 
-    val binding get() = _binding!!
+    private val binding get() = _binding!!
 
     override fun onAttach(context: Context) {
         super.onAttach(context)

@@ -9,7 +9,7 @@ import com.sachinsaxena.common.extensions.addFragmentWithBackStack
 import com.sachinsaxena.common.extensions.gone
 import com.sachinsaxena.common.extensions.visible
 import com.sachinsaxena.githubclosedpullrequests.R
-import com.sachinsaxena.githubclosedpullrequests.base.BaseBindingActivity
+import com.sachinsaxena.common.base.BaseBindingActivity
 import com.sachinsaxena.githubclosedpullrequests.databinding.ActivityMainBinding
 import com.sachinsaxena.githubclosedpullrequests.presentation.GitDataState
 

@@ -8,7 +8,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.androchef.githubsampleapp.extensions.toast
 import com.sachinsaxena.githubclosedpullrequests.R
-import com.sachinsaxena.githubclosedpullrequests.base.BaseBindingFragment
+import com.sachinsaxena.common.base.BaseBindingFragment
 import com.sachinsaxena.githubclosedpullrequests.databinding.FragmentPullRequestsBinding
 import com.sachinsaxena.githubclosedpullrequests.model.GithubPullRequest
 import com.sachinsaxena.githubclosedpullrequests.presentation.GitDataState

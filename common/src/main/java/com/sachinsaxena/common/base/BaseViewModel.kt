@@ -1,6 +1,5 @@
-package com.sachinsaxena.githubclosedpullrequests.base
+package com.sachinsaxena.common.base
 
-import androidx.annotation.CallSuper
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 

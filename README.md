@@ -21,9 +21,6 @@ It simply loads pull request list from [GITHUB-API](https://developer.github.com
 - [Picasso](https://github.com/square/picasso) - image loading framework for Android
 - [Gson](https://github.com/google/gson) - used to convert Java Objects into their JSON representation and vice versa.
 
-### What is clean architecture?
-Architecture means the overall design of the project. It's the organization of the code into classes or files or components or modules. And it's how all these groups of code relate to each other. The architecture defines where the application performs its core functionality and how that functionality interacts with things like the database and the user interface.
-
 ## - Current App's Architecture
 This app uses [***MVVM (Model View View-Model)***](https://developer.android.com/jetpack/docs/guide#recommended-app-arch) architecture.
 

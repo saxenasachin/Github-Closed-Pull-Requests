@@ -15,7 +15,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GithubClosedPUllRequests"
         tools:targetApi="31">
-        <activity android:name=".ui.MainActivity" />
+        <activity android:name=".ui.MainActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"/>
         <activity
             android:name=".ui.SplashActivity"
             android:exported="true">

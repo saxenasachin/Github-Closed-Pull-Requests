@@ -11,8 +11,8 @@
     <string name="info_no_repositories">No Repositories for this user.</string>
     <string name="info_no_pr_found">No Pull requests find for this repositories.</string>
     <string name="label_by">by</string>
-    <string name="my_github_username">happysingh23828</string>
-    <string name="my_repo_name">Android-Clean-Architecture</string>
+    <string name="my_github_username">navaneethkm004</string>
+    <string name="my_repo_name">simple-discord-chatbot</string>
     <string name="info_pull_requests">Pull Requests</string>
     <string name="repositories">Repositories</string>
 </resources>

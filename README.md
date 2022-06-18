@@ -1,7 +1,8 @@
 # Github Sample Application
 [![platform](https://img.shields.io/badge/platform-Android-yellow.svg)](https://www.android.com)
 
-This is a sample application 📱 built to demonstrate use of Github REST API ❤️.
+This is a sample application 📱 built to demonstrate use of Github REST API ❤️.![Screenshot_2022-06-18-20-25-08-922_com sachinsaxena githubclosedpullrequests](https://user-images.githubusercontent.com/22069181/174443974-2e3ea906-9c10-4f0a-b64e-78228c36cee3.jpg)
+
 
 ## - About
 It simply loads closed pull request list from [GITHUB-API](https://developer.github.com/v3)

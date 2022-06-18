@@ -1,5 +1,5 @@
 # Github Sample Application
-[![platform](https://img.shields.io/badge/platform-Android-yellow.svg)](https://www.android.com)
+[![platform target="_blank"](https://img.shields.io/badge/platform-Android-yellow.svg)](https://www.android.com)
 
 This is a sample application 📱 built to demonstrate use of Github REST API ❤️
 

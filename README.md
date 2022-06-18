@@ -3,6 +3,7 @@
 
 This is a sample application 📱 built to demonstrate use of Github REST API ❤️
 <br/>
+<br/>
 <img width="300" height="750" alt="Landing screen" src="https://user-images.githubusercontent.com/22069181/174443974-2e3ea906-9c10-4f0a-b64e-78228c36cee3.jpg">
 
 ## - About

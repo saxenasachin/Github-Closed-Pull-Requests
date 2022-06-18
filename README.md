@@ -32,7 +32,7 @@ but will be thoroughly reviewed .
 
 ### - Contact - Let's become friend
 - [Blog](https://medium.com/@sachinsaxena28)
-- [Linkedin](www.linkedin.com/in/sachin1790/)
+- [Linkedin](https://www.linkedin.com/in/sachin1790/)
 
 ## - License
 

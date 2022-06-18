@@ -1,7 +1,7 @@
 # Github Sample Application
 [![platform](https://img.shields.io/badge/platform-Android-yellow.svg)](https://www.android.com)
 
-This is a sample application 📱 built to demonstrate use of Github Rest Api to fetch closed pull requests of a repository ❤️.
+This is a sample application 📱 built to demonstrate use of Github REST Api to fetch closed pull requests of a repository ❤️.
 
 ## - About
 It simply loads pull request list from [GITHUB-API](https://developer.github.com/v3)

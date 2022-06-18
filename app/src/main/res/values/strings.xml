@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">GithubClosedPullRequests</string>
+    <string name="app_name">Github Closed Pull Requests</string>
     <string name="splash_title">Github Sample Application</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="enter_your_github_username">Enter your github username.</string>
@@ -11,8 +11,8 @@
     <string name="info_no_repositories">No Repositories for this user.</string>
     <string name="info_no_pr_found">No Pull requests find for this repositories.</string>
     <string name="label_by">by</string>
-    <string name="my_github_username">navaneethkm004</string>
-    <string name="my_repo_name">simple-discord-chatbot</string>
+    <string name="my_github_username">techgaun</string>
+    <string name="my_repo_name">active-forks</string>
     <string name="info_pull_requests">Pull Requests</string>
     <string name="repositories">Repositories</string>
 </resources>

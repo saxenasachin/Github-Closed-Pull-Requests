@@ -3,6 +3,7 @@ package com.sachinsaxena.githubclosedpullrequests.ui
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.sachinsaxena.common.extensions.DateTimeUtils
 import com.sachinsaxena.common.extensions.isValid
 import com.sachinsaxena.githubclosedpullrequests.R
 import com.sachinsaxena.githubclosedpullrequests.databinding.LayoutSinglePullRequestItemBinding
@@ -46,8 +47,10 @@ class PullRequestListAdaptor(private val listOfPrs: List<GithubPullRequest>) :
                 binding.root.context.getString(R.string.label_by).plus(" ")
                     .plus(pullRequestView.user?.login)
 
-            binding.tvCreatedAt.text = pullRequestView.createdAt
-            binding.tvClosedAt.text = pullRequestView.closedAt
+            binding.tvCreatedAt.text =
+                DateTimeUtils.getDayWithMonthName(pullRequestView.createdAt.orEmpty())
+            binding.tvClosedAt.text =
+                DateTimeUtils.getDayWithMonthName(pullRequestView.closedAt.orEmpty())
         }
     }
 }

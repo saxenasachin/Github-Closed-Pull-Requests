@@ -1,10 +1,13 @@
 # Github Sample Application
 [![platform](https://img.shields.io/badge/platform-Android-yellow.svg)](https://www.android.com)
 
-This is a sample application 📱 built to demonstrate use of *Basic Android Components*. Dedicated to all Android Developers with ❤️.
+This is a sample application 📱 built to demonstrate use of Github REST API ❤️
+<br/>
+<br/>
+<img width="300" height="750" alt="Landing screen" src="https://user-images.githubusercontent.com/22069181/174443974-2e3ea906-9c10-4f0a-b64e-78228c36cee3.jpg">
 
 ## - About
-It simply loads pull request list from [GITHUB-API](https://developer.github.com/v3)
+It simply loads closed pull request list from [GITHUB-API](https://developer.github.com/v3)
 
 ## - Built With 🛠
 - [Kotlin](https://kotlinlang.org/) - First class and official programming language for Android development.
@@ -32,7 +35,7 @@ but will be thoroughly reviewed .
 
 ### - Contact - Let's become friend
 - [Blog](https://medium.com/@sachinsaxena28)
-- [Linkedin](www.linkedin.com/in/sachin1790/)
+- [Linkedin](https://www.linkedin.com/in/sachin1790/)
 
 ## - License
 

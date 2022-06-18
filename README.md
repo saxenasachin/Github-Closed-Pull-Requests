@@ -2,6 +2,11 @@
 [![platform](https://img.shields.io/badge/platform-Android-yellow.svg)](https://www.android.com)
 
 This is a sample application 📱 built to demonstrate use of Github REST API ❤️
+
+Download APK from here to test it.
+[app-debug.apk.zip](https://github.com/saxenasachin/Github-Closed-Pull-Requests/files/8933906/app-debug.apk.zip)
+
+
 <br/>
 <br/>
 <img width="300" height="750" alt="Landing screen" src="https://user-images.githubusercontent.com/22069181/174443974-2e3ea906-9c10-4f0a-b64e-78228c36cee3.jpg">

@@ -7,7 +7,8 @@ Download APK from here to test it.
 [app-debug.apk.zip](https://github.com/saxenasachin/Github-Closed-Pull-Requests/files/8933906/app-debug.apk.zip)
 <br/>
 <br/>
-<img width="300" height="750" alt="Landing screen" src="https://user-images.githubusercontent.com/22069181/174443974-2e3ea906-9c10-4f0a-b64e-78228c36cee3.jpg">
+<img width="300" height="750" alt="Landing screen" src="https://user-images.githubusercontent.com/22069181/174443974-2e3ea906-9c10-4f0a-b64e-78228c36cee3.jpg"> <img width="300" height="750" alt="Closed Pull Requests screen" src="https://user-images.githubusercontent.com/22069181/174446521-6f1e0535-b74e-4fb4-a6a4-b17448cf6565.jpg">
+
 
 ## - About
 It simply loads closed pull request list from [GITHUB-API](https://developer.github.com/v3)

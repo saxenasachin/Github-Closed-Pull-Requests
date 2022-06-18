@@ -28,15 +28,6 @@ This app uses [***MVVM (Model View View-Model)***](https://developer.android.com
 
 ## If this project helps you in anyway, show your love :heart: by putting a :star: on this project :v:
 
-
-## - Contributing
-
-Please fork this repository and contribute back using
-[pull requests](https://github.com/happysingh23828/Github-API-s-Sample-Android-app/pulls).
-
-Any contributions, large or small, major features, bug fixes, are welcomed and appreciated
-but will be thoroughly reviewed .
-
 ### - Contact - Let's become friend
 - [Blog](https://medium.com/@sachinsaxena28)
 - [Linkedin](https://www.linkedin.com/in/sachin1790/)

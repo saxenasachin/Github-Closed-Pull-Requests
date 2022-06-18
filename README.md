@@ -4,7 +4,7 @@
 This is a sample application 📱 built to demonstrate use of Github REST Api to fetch closed pull requests of a repository ❤️.
 
 ## - About
-It simply loads pull request list from [GITHUB-API](https://developer.github.com/v3)
+It simply loads closed pull request list from [GITHUB-API](https://developer.github.com/v3)
 
 ## - Built With 🛠
 - [Kotlin](https://kotlinlang.org/) - First class and official programming language for Android development.
